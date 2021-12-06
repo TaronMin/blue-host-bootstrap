@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@800&display=swap');
+.text-decoration-none{
+    text-decoration: none;
+}
+.text-decoration-none:hover{
+    text-decoration: none;
+}
+.first--section{
+    background: #83C0FC;
+}
+.text-color-in-cite{
+    color: #1D2A3B;
+}
+.font-famely-shippori{
+    font-family: Shippori Mincho B1;
+    font-weight: 800;
+}
+.font-size-22{
+    font-size: 1.5rem;
+}
+.list--in--first--section ul li{
+    position: relative;
+}
+.list--in--first--section ul li::before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    border-radius: 100%;
+    position: absolute;
+    left: -10px;
+    top: 9px;
+}
+.text-decoration-line-through{
+    text-decoration: line-through;
+}
+.bg-color-FBFBFB{
+    background-color: #FBFBFB;
+    border: 1px solid #f1efef;
+}
+.bg-color-for-forth{
+    background-color: #F0FAFF;
+}
+.bg-color-for-five{
+    background-color: #83C0FC;
+}
+.bg-color-for-six{
+    background-color: #F0FAFF;
+}
+.bg-color-in-footer-leftpart{
+    background-color: #4A83D8;
+}
+.bg-color-in-footer-rightpart{
+    background-color: #3575D3;
+}
+.lists--in--footer>div>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Open Sans,Arial,sans-serif;
+}
+.first--in--footer--list{
+    font-size: 18px;
+}
+.last--paragraph--footer{
+    font-size: 13px;
+}
+.word-spacing{
+    white-space: nowrap;
+    font-size: 1.3rem;
+}
+.font-size-vw{
+    font-size: 4vw;
+}
